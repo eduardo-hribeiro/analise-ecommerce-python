@@ -22,8 +22,7 @@ analise-ecommerce-python
 │
 ├── Imagens
 │   ├── histograma_precos.png
-│   ├── heatmap_correlacao.png
-│   └── regressao_vendas.png
+│   └── heatmap_qtdvendas.png   
 │
 ├── graficos.py
 └── README.md
