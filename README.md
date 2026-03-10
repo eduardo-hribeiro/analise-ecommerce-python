@@ -1,9 +1,14 @@
 # 📊 Análise de Dados de E-commerce
+Este projeto realiza uma análise exploratória de dados (EDA) utilizando Python para investigar padrões em um dataset de produtos de e-commerce.
 
-## 📌 Visão Geral
-Este projeto realiza uma análise exploratória de dados (EDA) utilizando um dataset de produtos de e-commerce.
+A análise busca identificar relações entre preço, avaliações, vendas e atributos dos produtos, utilizando visualizações para facilitar a interpretação dos dados.
 
-O objetivo é explorar características dos produtos e identificar possíveis relações entre preço, avaliações, vendas e atributos dos produtos, como marca e temporada.
+## 📌 Objetivo do projeto
+Explorar um dataset de e-commerce para identificar padrões que possam ajudar a entender:
+ - distribuição de preços dos produtos
+ - relação entre preço e avaliações
+ - possíveis fatores relacionados ao volume de vendas
+ - presença de marcas no catálogo
 
 ## 🛠 Tecnologias utilizadas
 
@@ -73,7 +78,11 @@ Foram geradas diferentes visualizações para explorar o comportamento dos dados
    Investiga se produtos com maior volume de vendas apresentam melhores avaliações.
 
 ## 📷 Exemplo de visualização
+
+### Distribuição de preços
 ![histograma](histograma_preços.png)
+
+### Correlação entre variáveis numéricas
 ![heatmap](heatmap_qtdvendas.png)
 
 ## 🔎 Principais insights
