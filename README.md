@@ -89,10 +89,10 @@ A análise exploratória revelou alguns padrões interessantes:
 ## ▶ Como executar o projeto
 
 1. Clone o repositório
-git clone https://github.com/eduardo-hribeiro/analise-ecommerce-python.git
+   - git clone https://github.com/eduardo-hribeiro/analise-ecommerce-python.git
 
 2. Instale as bibliotecas necessárias
-pip install pandas matplotlib seaborn
+   - pip install pandas matplotlib seaborn
 
 3. Execute o script de análise
 python graficos.py
