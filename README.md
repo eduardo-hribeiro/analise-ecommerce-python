@@ -1,5 +1,6 @@
 # 📊 Análise de Dados de E-commerce
 
+## 📌 Visão Geral
 Este projeto realiza uma análise exploratória de dados (EDA) utilizando um dataset de produtos de e-commerce.
 
 O objetivo é explorar características dos produtos e identificar possíveis relações entre preço, avaliações, vendas e atributos dos produtos, como marca e temporada.
@@ -10,6 +11,21 @@ O objetivo é explorar características dos produtos e identificar possíveis re
 - Pandas
 - Matplotlib
 - Seaborn
+
+## 🧱 Estrutura do Projeto
+
+analise-ecommerce-python
+│
+├── BD
+│   └── ecommerce_estatistica.csv
+│
+├── Imagens
+│   ├── histograma_precos.png
+│   ├── heatmap_correlacao.png
+│   └── regressao_vendas.png
+│
+├── graficos.py
+└── README.md
 
 ## 📁 Dataset
 
