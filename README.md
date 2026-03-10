@@ -55,10 +55,10 @@ Foram geradas diferentes visualizações para explorar o comportamento dos dados
 
 3. **Correlação entre variáveis numéricas (Mapa de calor)**  
    Mostra relações entre variáveis como:
-- preço
-- avaliações
-- número de reviews
-- quantidade vendida
+   - preço
+   - avaliações
+   - número de reviews
+   - quantidade vendida
 
 4. **Marcas mais frequentes (Gráfico de barras)**  
    Identifica quais marcas aparecem com maior frequência no catálogo.
