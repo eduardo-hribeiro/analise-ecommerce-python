@@ -78,7 +78,7 @@ Foram geradas diferentes visualizações para explorar o comportamento dos dados
 
 ## 🔎 Principais insights
 
-Some insights obtained from the analysis:
+A análise exploratória revelou alguns padrões interessantes:
 
 - A maior parte dos produtos possui preços entre 50 e 200, indicando concentração em uma faixa intermediária de preço.
 - Não foi identificada forte correlação entre preço e avaliação, sugerindo que produtos mais caros não necessariamente recebem melhores notas.
@@ -97,7 +97,7 @@ pip install pandas matplotlib seaborn
 3. Execute o script de análise
 python graficos.py
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Eduardo Ribeiro
 
