@@ -72,7 +72,7 @@ Foram geradas diferentes visualizações para explorar o comportamento dos dados
 7. **Relação entre vendas e avaliações (Gráfico de regressão)**  
    Investiga se produtos com maior volume de vendas apresentam melhores avaliações.
 
-## 📷 Gráficos
+## 📷 Exemplo de visualização
 ![histograma](histograma_preços.png)
 ![heatmap](heatmap_qtdvendas.png)
 
