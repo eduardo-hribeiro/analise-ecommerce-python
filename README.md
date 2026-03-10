@@ -14,6 +14,7 @@ O objetivo é explorar características dos produtos e identificar possíveis re
 
 ## 🧱 Estrutura do Projeto
 
+```
 analise-ecommerce-python
 │
 ├── BD
@@ -26,6 +27,7 @@ analise-ecommerce-python
 │
 ├── graficos.py
 └── README.md
+```
 
 ## 📁 Dataset
 
