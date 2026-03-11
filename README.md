@@ -84,7 +84,7 @@ A análise exploratória revelou alguns padrões interessantes:
    - pip install pandas matplotlib seaborn dash plotly statsmodels
 
 3. Execute o script de análise
-   - python graficos.py
+   - python graficos_matplotlib.py
    - python app_dash.py
 
 ## 👨‍💻 Autor
