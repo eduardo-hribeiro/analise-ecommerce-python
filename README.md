@@ -27,8 +27,7 @@ analise-ecommerce-python
 ├── ecommerce_estatistica.csv
 ├── graficos_matplotlib.py
 ├── app_dash.py
-├── Dashboard_1.jpeg
-├── Dashboard_2.jpeg
+├── images (Dashboard)
 ├── requirements.txt
 └── README.md
 ```
@@ -61,9 +60,9 @@ O dashboard inclui:
 - Densidade entre preço e avaliação
 - Relação entre vendas e avaliações (Regressão)
 
-![Dashboard](Dashboard_1.jpeg)
+![Dashboard](images/Dashboard_1.jpeg)
 
-![Dashboard](Dashboard_2.jpeg)
+![Dashboard](images/Dashboard_2.jpeg)
 
 ## 🔎 Principais insights
 
