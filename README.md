@@ -16,20 +16,18 @@ Explorar um dataset de e-commerce para identificar padrões que possam ajudar a 
 - Pandas
 - Matplotlib
 - Seaborn
+- Plotly
+- Dash
 
 ## 🧱 Estrutura do Projeto
 
 ```
 analise-ecommerce-python
 │
-├── BD
-│   └── ecommerce_estatistica.csv
-│
-├── Imagens
-│   ├── histograma_precos.png
-│   └── heatmap_qtdvendas.png   
-│
-├── graficos.py
+├── ecommerce_estatistica.csv
+├── graficos_matplotlib.py
+├── app_dash.py
+├── requirements.txt
 └── README.md
 ```
 
@@ -48,42 +46,18 @@ O dataset contém informações sobre produtos de e-commerce, incluindo variáve
 
 Essas variáveis permitem investigar possíveis padrões relacionados à popularidade dos produtos, comportamento de preços e feedback dos clientes.
 
-## 📊 Análises realizadas
+## 📊 Dashboard Interativo (Dash)
 
-Foram geradas diferentes visualizações para explorar o comportamento dos dados:
+Além da análise exploratória, foi criada uma aplicação interativa utilizando **Dash e Plotly** para visualização dos dados.
 
-1. **Distribuição de preços (Histograma)**  
-   Permite visualizar como os preços dos produtos estão distribuídos no dataset.
-
-2. **Relação entre preço e avaliação (Gráfico de dispersão)**  
-   Analisa se produtos mais caros tendem a receber melhores avaliações.
-
-3. **Correlação entre variáveis numéricas (Mapa de calor)**  
-   Mostra relações entre variáveis como:
-   - preço
-   - avaliações
-   - número de reviews
-   - quantidade vendida
-
-4. **Marcas mais frequentes (Gráfico de barras)**  
-   Identifica quais marcas aparecem com maior frequência no catálogo.
-
-5. **Distribuição de produtos por temporada (Gráfico de pizza)**  
-   Mostra como os produtos se distribuem entre diferentes temporadas.
-
-6. **Concentração de preços (Gráfico de densidade)**  
-   Exibe onde os preços se concentram no dataset.
-
-7. **Relação entre vendas e avaliações (Gráfico de regressão)**  
-   Investiga se produtos com maior volume de vendas apresentam melhores avaliações.
-
-## 📷 Exemplo de visualização
-
-### Distribuição de preços
-![histograma](histograma_preços.png)
-
-### Correlação entre variáveis numéricas
-![heatmap](heatmap_qtdvendas.png)
+O dashboard inclui:
+- Distribuição de preços (Histograma)
+- Relação entre preço e avaliação (Scatter Plot)
+- Correlação entre variáveis (Heatmap)
+- Top marcas de produtos
+- Distribuição por temporada (Pizza)
+- Densidade entre preço e avaliação
+- Relação entre vendas e avaliações (Regressão)
 
 ## 🔎 Principais insights
 
@@ -101,10 +75,11 @@ A análise exploratória revelou alguns padrões interessantes:
    - git clone https://github.com/eduardo-hribeiro/analise-ecommerce-python.git
 
 2. Instale as bibliotecas necessárias
-   - pip install pandas matplotlib seaborn
+   - pip install pandas matplotlib seaborn dash plotly statsmodels
 
 3. Execute o script de análise
 python graficos.py
+python app_dash.py
 
 ## 👨‍💻 Autor
 
