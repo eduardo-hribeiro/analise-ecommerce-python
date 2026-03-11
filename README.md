@@ -68,9 +68,9 @@ O dashboard inclui:
 
 A análise exploratória revelou alguns padrões interessantes:
 
-- A maior parte dos produtos possui preços entre 50 e 200, indicando concentração em uma faixa intermediária de preço.
+- A maior concentração de produtos está em faixas intermediárias de preço.
 - Não foi identificada forte correlação entre preço e avaliação, sugerindo que produtos mais caros não necessariamente recebem melhores notas.
-- Produtos com maior quantidade de vendas tendem a apresentar avaliações ligeiramente melhores, o que pode indicar que produtos populares geram maior satisfação dos consumidores.
+- Produtos com maior número de vendas tendem a possuir avaliações mais altas.
 - Algumas marcas aparecem com maior frequência no catálogo, indicando possível concentração de produtos em determinadas marcas.
 - O catálogo apresenta maior presença de produtos associados às temporadas Primavera/Verão, sugerindo foco em produtos voltados para climas mais quentes.
 
