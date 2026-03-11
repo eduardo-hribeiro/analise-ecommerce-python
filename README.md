@@ -27,6 +27,8 @@ analise-ecommerce-python
 ├── ecommerce_estatistica.csv
 ├── graficos_matplotlib.py
 ├── app_dash.py
+├── Dashboard_1.jpeg
+├── Dashboard_2.jpeg
 ├── requirements.txt
 └── README.md
 ```
@@ -58,6 +60,10 @@ O dashboard inclui:
 - Distribuição por temporada (Pizza)
 - Densidade entre preço e avaliação
 - Relação entre vendas e avaliações (Regressão)
+
+![Dashboard](Dashboard_1.jpeg)
+
+![Dashboard](Dashboard_2.jpeg)
 
 ## 🔎 Principais insights
 
